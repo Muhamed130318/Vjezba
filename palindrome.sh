@@ -10,7 +10,10 @@ done
 
 #echo $rev
 
-if [[ $word == $rev ]]
+
+if [[ $word = *" "* ]]
+	then echo "Only enter one word"
+elif [[ $word == $rev ]]
 	then echo "$word is a palindrome."
 else
 	echo "$word isn't a palindrome."
