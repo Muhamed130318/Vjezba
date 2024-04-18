@@ -1,5 +1,5 @@
 #!/bin/bash
-#GIT TEST 
+
 
 read -p "Word to check palindrome: " word
 
