@@ -2,7 +2,7 @@
 
 function usage {
 	cat << EOF
-	./acccheck NAME
+	./acccheck ACC NAME
 	This script is used to check whether the specified
 	account exists and its location.
 EOF
